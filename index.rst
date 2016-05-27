@@ -6,7 +6,7 @@
 ParticleLoad Documentation
 ========================================
 
-ParticleLoad is a highly customisable and easy to install loading screen for Garry's Mod servers. The documentation here will guide you through the installation and configuration of ParticleLoad.S
+ParticleLoad is a highly customisable and easy to install loading screen for Garry's Mod servers. The documentation here will guide you through the installation and configuration of ParticleLoad.
 
 Contents:
 
