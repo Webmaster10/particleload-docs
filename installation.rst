@@ -27,4 +27,12 @@ Upload To Your Web Host
 Your web host will have a folder called something like "public" or "public_html". Create a folder in here, for this guide I will call  this folder "loadingscreen" from here on. Now upload all of the files from
 INSIDE the extracted "INSTALL" folder to the "loadingscreen" folder using FTP or your web host's built-in file browser.
 
+Setting sv_loadingurl
+-------------------------------------------------
+To apply the loading screen on your Garry's Mod server, edit your server.cfg, if it doesn't already add a line starting with "sv_loadingurl" (without quotation marks), then a space, then in quotation marks copy the Loading URL from the top of the ParticleLoad settings page. For this example, it would look like: ::
+
+    sv_loadingurl "http://myamazingdomain.com/loadingscreen/index.php?steamid=%s"
+
+When you have done this save your settings and restart your Garry's Mod server.
+
 ParticleLoad is now installed and you can move onto the configuration stage.

@@ -12,14 +12,6 @@ You will be presented with a Steam login page, sign in with your Steam account t
 .. note::
     Only the Steam account defined in config.php next to $admin will be able to log in to the configurator. By default this is the account that purchased ParticleLoad on ScriptFodder. Instructions for changing this can be found in the "Installation" section of the documentation.
 
-Setting sv_loadingurl
--------------------------------------------------
-To apply the loading screen on your Garry's Mod server, edit your server.cfg, if it doesn't already add a line starting with "sv_loadingurl" (without quotation marks), then a space, then in quotation marks copy the Loading URL from the top of the ParticleLoad settings page. For this example, it would look like: ::
-
-    sv_loadingurl "http://myamazingdomain.com/loadingscreen/index.php?steamid=%s"
-
-When you have done this save your settings and restart your Garry's Mod server.
-
 Replacing/Deleting the Logo
 ---------------------------------------
 ParticleLoad can display a logo of your choice above the loading screen content. You can use this to, for example, display your server or community's logo. To replace it, on your web host go into the folder you installed ParticleLoad in ("loadingscreen"), then go into the "img" folder, then the "logo" folder. Delete the image file already in here to remove the default logo, then if you want, upload your own image file to replace it. It doesn't matter what you call this file, ParticleLoad will use the first file it finds.
@@ -48,7 +40,7 @@ List - Non-Numbered
     This will create a list of items (without numbers) seperated by dividers. Again, you can edit the list items and add as many items as you desire.
 
 Text
-    This will allow you to enter whatever you want to displayed, including text and images. Advanced users can even enter their own HTML.
+    This will allow you to enter whatever you want to be displayed, including text and images. Advanced users can even enter their own HTML.
 
 To edit a card's contents, click on the pencil icon beside it. This will open an editor which will look different depending on the type of card. For most types of card this will be a text editor where you can enter what you want, but for list cards this will be a list editor where you can add, edit and remove list items. All types of card support placeholder phrases such as %servername% (more info on these below). You can change the order cards will show up in by pressing the arrow icons at the left to switch their order. Remember to hit the "Save" button to save your changes.
 
