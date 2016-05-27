@@ -17,8 +17,8 @@ Now, open up the "INSTALL" folder you previously extracted, and edit the file ca
 
 Enter your Steam API Key between the two quotation marks and save your changes.
 
-Changing the Admin
-----------------------------
+Changing the Admin (Optional)
+----------------------------------
 By default, the admin is the person who purchased ParticleLoad on ScriptFodder. If for some reason you want to change this, change the Steam ID in config.php next to $admin. Note that this must be a SteamID64 i.e.
 "76561198134262586" and NOT a SteamID32.
 
