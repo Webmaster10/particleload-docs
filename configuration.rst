@@ -3,7 +3,7 @@ Configuration
 
 Accessing the Configurator
 ------------------------------------
-To access the settings page, go to https://<yourdomain.tld>/<particleloadfolder>/settings.php
+To access the settings page, go to http://<yourdomain.tld>/<particleloadfolder>/settings.php
 
 For example, if your domain name is "myamazingdomain.com" and the folder you put ParticleLoad in is called "loadingscreen", go to http://myamazingdomain.com/loadingscreen/settings.php
 
@@ -28,7 +28,7 @@ ParticleLoad can display a logo of your choice above the loading screen content.
 you installed ParticleLoad in ("loadingscreen"), then go into the "img" folder, then the "logo" folder. Delete the image file already in here to remove the default logo, then if you want, upload your own image
 file to replace it. It doesn't matter what you call this file, ParticleLoad will use the first file it finds.
 
-..note::
+.. note::
     ParticleLoad supports any image file that is capable of being displayed in modern web browsers including jpeg, png, gif, svg and bmp.
 
 Editing the Loading Screen's Appearance
