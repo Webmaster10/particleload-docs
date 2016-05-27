@@ -15,4 +15,6 @@ Contents:
 
    installation
 
+   updating
+
    configuration
