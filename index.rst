@@ -15,5 +15,4 @@ Contents:
 
    installation
 
-   configuration/index
-   configuration/*
+   configuration
