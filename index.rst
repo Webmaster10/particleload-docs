@@ -3,20 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ParticleLoad's documentation!
+ParticleLoad Documentation
 ========================================
+
+ParticleLoad is a highly customisable and easy to install loading screen for Garry's Mod servers. The documentation here will guide you through the installation and configuration of ParticleLoad.S
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   installation
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   configuration/index
+   configuration/*
