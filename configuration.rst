@@ -23,6 +23,10 @@ Editing the Loading Screen's Appearance
 -------------------------------------------------
 The first thing you will see when you open ParticleLoad's settings page is the appearance tab. Here you can customise almost every aspect of ParticleLoad's appearance, settings are grouped into categories to make it easier to find the thing you want. Feel free to experiment with things here - you can always hit the "Reset" button at the bottom right to reset everything back to default settings (this will not reset cards you've added or music settings). Hit the "Save" button at the bottom-left to save your settings, then press the "Preview" button at the top to see how everything looks.
 
+Background Images/Slideshow
+---------------------------------
+To use an image as the background, or use a set of images in a slideshow as the background, go into the folder you installed ParticleLoad in ("loadingscreen"), then go into the "img" folder, then the "background" folder. Upload any images you want to use in here. If you upload one, ParticleLoad will use that image as the only background, and if you upload multiple, it will use all of them in a slideshow. ParticleLoad automatically detects the images you upload so it doesn't matter what you name them, however it will play the images in the slideshow in alphabetical order of their filenames. The slideshow is also synced with the card animations.
+
 Adding/Editing cards
 ------------------------
 The main content of ParticleLoad is defined in "Cards", which ParticleLoad will automatically transition between. To access the cards settings, click on the "Cards" tab at the top. Cards are extremely simple to set up, and to give you an idea of how they work ParticleLoad comes with a few cards already set up. To add a card, click on the "Add Card" button at the bottom right. A menu will appear asking you to select a card type, the types of cards are as follows:
